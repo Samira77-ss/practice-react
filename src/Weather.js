@@ -10,7 +10,6 @@ export default function weather(props) {
   axios.get(apiUrl).then(displayWeather);
   return (
     <div className="weather">
-      <h1>Hello</h1>
       <Audio
         height="80"
         width="80"
