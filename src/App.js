@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Hello World</h1>
-
+        <Weather />
         <footer>
           This project was coded by Samira Seyfi and is{" "}
           <a
@@ -16,8 +15,6 @@ function App() {
             open sourced on GitHub
           </a>
         </footer>
-
-        <Weather city="Tokyo" />
       </div>
     </div>
   );
